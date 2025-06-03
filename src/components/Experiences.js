@@ -7,9 +7,9 @@ export default function Experiences() {
         {/* Titolo centrato */}
         <h2 className="text-3xl font-semibold mb-8 text-center">Esperienze</h2>
 
-        {/* Container flex: immagine sinistra | lista | immagine destra */}
-        <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
-          {/* Immagine di sinistra: usa 10.jpg */}
+        {/* Container flex: immagine-sinistra | lista (centrata) | immagine-destra */}
+        <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-6">
+          {/* Immagine di sinistra */}
           <div className="flex-shrink-0">
             <img
               src="/images/10.jpg"
@@ -18,14 +18,14 @@ export default function Experiences() {
             />
           </div>
 
-          {/* Lista delle esperienze: al centro su md+ */}
-          <ul className="flex-1 list-disc list-inside text-lg space-y-2 text-center md:text-left">
+          {/* Lista delle esperienze: sempre centrata */}
+          <ul className="list-disc list-inside text-lg space-y-2 text-center">
             <li>Visite guidate in vigna con degustazione in cantina</li>
             <li>Vendita diretta in cantina</li>
             <li>Eventi privati su richiesta</li>
           </ul>
 
-          {/* Immagine di destra: usa 9.jpg */}
+          {/* Immagine di destra */}
           <div className="flex-shrink-0">
             <img
               src="/images/9.jpg"
