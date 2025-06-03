@@ -11,10 +11,9 @@ function App() {
     <div className="flex flex-col min-h-screen">
       <Header />
       <Hero />
--     <Gallery />
       <Experiences />
       <Contact />
-+     <Gallery />
+      <Gallery />         {/* Gallery solo qui, dopo Contatti */}
       <Footer />
     </div>
   );
