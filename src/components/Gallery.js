@@ -12,7 +12,6 @@ const images = [
   { src: '/images/9.jpg', alt: 'Foto 9: Bottiglie appoggiate in cantina' },
   { src: '/images/10.jpg', alt: 'Foto 10: Dettaglio di una vino-barrique' },
   { src: '/images/11.jpg', alt: 'Foto 11: Dettaglio di filare di vite' },
-  { src: '/images/12.jpg', alt: 'Foto 12: Grappolo d’uva matura' },
   { src: '/images/13.jpg', alt: 'Foto 13: Travertino e viti su terrazzamento' },
 ];
 
