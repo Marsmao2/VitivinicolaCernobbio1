@@ -6,11 +6,11 @@ export default function Hero() {
       className="relative bg-cover bg-center h-[auto] flex flex-col items-center justify-center py-16"
       style={{ backgroundImage: "url('/images/hero.jpg')" }}
     >
-      {/* Sovrapposizione scura semi-trasparente */}
+      {/* Sovrapposizione nera semi-trasparente */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
-      {/* Contenuto centrale con satinatura più leggera (bg-opacity-60) */}
-      <div className="relative z-10 bg-white bg-opacity-60 text-center text-black max-w-3xl p-6 rounded-lg space-y-6">
+      {/* Contenuto centrale con satinatura molto leggera (bg-opacity-30) */}
+      <div className="relative z-10 bg-white bg-opacity-30 text-center text-black max-w-3xl p-6 rounded-lg space-y-6">
         {/* TITOLO PRINCIPALE */}
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">
           VITIVINICOLA CERNOBBIO, GIGI E CRISTINA WINERY
@@ -43,8 +43,8 @@ export default function Hero() {
           </p>
         </div>
 
-        {/* Sezione "Visite solo su prenotazione" */}
-        <div className="mt-6 bg-white bg-opacity-60 p-4 rounded-lg">
+        {/* Sezione “Visite solo su prenotazione” con satinatura leggera */}
+        <div className="mt-6 bg-white bg-opacity-30 p-4 rounded-lg">
           <p className="text-lg font-semibold text-olive-900">
             SI ACCETTANO VISITE E SOLO SU PRENOTAZIONE
           </p>
