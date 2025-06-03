@@ -46,7 +46,7 @@ export default function Hero() {
         {/* Sezione “Visite solo su prenotazione” */}
         <div className="mt-6 bg-white bg-opacity-40 p-4 rounded-lg">
           <p className="text-lg font-semibold text-olive-900">
-            SI ACCETTANO VISITE E SOLO SU PRENOTAZIONE
+            SI ACCETTANO VISITE SOLO SU PRENOTAZIONE
           </p>
         </div>
       </div>
