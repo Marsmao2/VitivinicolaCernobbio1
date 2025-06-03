@@ -11,8 +11,8 @@ export default function Hero() {
 
       {/* Contenuto centrale con satinatura */}
       <div className="relative z-10 bg-white bg-opacity-40 text-center max-w-3xl p-6 rounded-lg space-y-6">
-        {/* Titolo principale in verde oliva con ombra */}
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-olive-900 drop-shadow-md">
+        {/* Titolo principale con sfumatura su testo trasparente */}
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-700 via-emerald-500 to-yellow-400 drop-shadow-md">
           VITIVINICOLA CERNOBBIO, GIGI E CRISTINA WINERY
         </h1>
 
