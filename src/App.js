@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Gallery from './components/Gallery';
++ import Description from './components/Description';
 import Experiences from './components/Experiences';
 import Contact from './components/Contact';
+import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
     <div className="flex flex-col min-h-screen">
       <Header />
       <Hero />
++     <Description />
       <Experiences />
       <Contact />
-      <Gallery />         {/* Gallery solo qui, dopo Contatti */}
+      <Gallery />
       <Footer />
     </div>
   );
