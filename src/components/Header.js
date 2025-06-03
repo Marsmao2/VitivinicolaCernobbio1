@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 
 export default function Header() {
   return (
@@ -12,35 +11,15 @@ export default function Header() {
 
         {/* Link di navigazione */}
         <div className="space-x-8 flex">
-          {/* 1. Experiences */}
-          <Link
-            to="esperienze"
-            smooth={true}
-            duration={500}
-            className="cursor-pointer hover:text-gray-200"
-          >
+          <a href="#esperienze" className="cursor-pointer hover:text-gray-200">
             Experiences
-          </Link>
-
-          {/* 2. Contacts */}
-          <Link
-            to="contatti"
-            smooth={true}
-            duration={500}
-            className="cursor-pointer hover:text-gray-200"
-          >
+          </a>
+          <a href="#contatti" className="cursor-pointer hover:text-gray-200">
             Contacts
-          </Link>
-
-          {/* 3. Gallery */}
-          <Link
-            to="gallery"
-            smooth={true}
-            duration={500}
-            className="cursor-pointer hover:text-gray-200"
-          >
+          </a>
+          <a href="#gallery" className="cursor-pointer hover:text-gray-200">
             Gallery
-          </Link>
+          </a>
         </div>
       </nav>
     </header>
