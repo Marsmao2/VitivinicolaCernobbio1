@@ -11,13 +11,13 @@ export default function Hero() {
 
       {/* Contenuto sopra l’immagine */}
       <div className="relative z-10 text-center px-4 text-white">
-        {/* Titolo */}
+        {/* Titolo (rimane sempre nella stessa posizione) */}
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold drop-shadow-md">
           VITIVINICOLA CERNOBBIO, GIGI E CRISTINA WINERY
         </h1>
 
-        {/* Frase in inglese (più grande) */}
-        <p className="mt-4 text-2xl md:text-3xl font-semibold drop-shadow-md">
+        {/* Frase in inglese ridotta di dimensione */}
+        <p className="mt-4 text-xl md:text-2xl font-semibold drop-shadow-md">
           Overlooking Lake Como, Gigi and Cristina Winery is an authentic example of heroic viticulture.
         </p>
 
@@ -28,7 +28,7 @@ export default function Hero() {
 
         {/* Riquadro satinato per le visite su prenotazione */}
         <div className="mt-6 inline-block bg-white bg-opacity-70 px-6 py-4 rounded-sm">
-          {/* Testo inglese, più grande */}
+          {/* Testo inglese (mantiene dimensione) */}
           <p className="text-2xl md:text-3xl font-bold text-gray-800">
             Visits accepted by reservation only
           </p>
