@@ -7,10 +7,10 @@ export default function Experiences() {
         {/* Titolo centrato */}
         <h2 className="text-3xl font-semibold mb-8 text-center">Esperienze</h2>
 
-        {/* Container flex: immagine-sinistra | testi bilingue (2 colonne) con linea divisoria | immagine-destra */}
+        {/* Container flex: immagine-sinistra | testi bilingue in due colonne | immagine-destra */}
         <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-6">
-          {/* Immagine di sinistra con margine a destra */}
-          <div className="flex-shrink-0 mr-8">
+          {/* Immagine di sinistra con margine a destra aumentato */}
+          <div className="flex-shrink-0 mr-12">
             <img
               src="/images/10.jpg"
               alt="Esperienza degustazione in cantina"
@@ -35,8 +35,8 @@ export default function Experiences() {
             </ul>
           </div>
 
-          {/* Immagine di destra con margine a sinistra */}
-          <div className="flex-shrink-0 ml-8">
+          {/* Immagine di destra con margine a sinistra aumentato */}
+          <div className="flex-shrink-0 ml-12">
             <img
               src="/images/9.jpg"
               alt="Bottiglie in cantina"
