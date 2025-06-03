@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaWhatsapp, FaInstagram, FaFace
 
 export default function Contact() {
   return (
-    <section id="contatti" className="py-16 bg-gray-50">
+    <section id="contatti" className="py-16 bg-white">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl font-semibold mb-6 text-center">Contatti & Prenotazioni</h2>
         <div className="space-y-4 text-lg">
