@@ -9,21 +9,21 @@ export default function Hero() {
       {/* Sovrapposizione nera semi-trasparente */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
-      {/* Contenuto centrale con satinatura leggermente più opaca (bg-opacity-40) */}
-      <div className="relative z-10 bg-white bg-opacity-40 text-center text-black max-w-3xl p-6 rounded-lg space-y-6">
-        {/* TITOLO PRINCIPALE */}
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">
+      {/* Contenuto centrale con satinatura */}
+      <div className="relative z-10 bg-white bg-opacity-40 text-center max-w-3xl p-6 rounded-lg space-y-6">
+        {/* Titolo principale in verde oliva con ombra */}
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-olive-900 drop-shadow-md">
           VITIVINICOLA CERNOBBIO, GIGI E CRISTINA WINERY
         </h1>
 
-        {/* SOTTOTITOLO */}
-        <h2 className="text-xl md:text-2xl">
+        {/* Sottotitolo */}
+        <h2 className="text-xl md:text-2xl text-black">
           Affacciata sul Lago di Como, Gigi e Cristina Winery è un esempio autentico di viticoltura eroica.
         </h2>
 
-        {/* TESTO DESCRITTIVO BILINGUE */}
+        {/* Testo descrittivo bilingue */}
         <div className="space-y-4 text-left">
-          <p className="text-base md:text-lg leading-relaxed">
+          <p className="text-base md:text-lg leading-relaxed text-black">
             Affacciata sul Lago di Como, Gigi e Cristina Winery è un esempio autentico di viticoltura eroica. 
             Premiati con la medaglia d'oro viticoltura eroica, coltiviamo manualmente vitigni resistenti su 
             terrazzamenti esposti a sud, dove ogni filare abbraccia il sole e la roccia. La nostra 
@@ -32,7 +32,7 @@ export default function Hero() {
             carattere autentico del territorio. Un'esperienza di vino che nasce dalla passione, dalla 
             fatica e dalla bellezza del Lago di Como.
           </p>
-          <p className="text-base md:text-lg leading-relaxed italic">
+          <p className="text-base md:text-lg leading-relaxed italic text-black">
             Overlooking Lake Como, Gigi e Cristina Winery is a true example of heroic viticulture. 
             Awarded the Gold Medal for Heroic Viticulture, we manually cultivate disease-resistant 
             grape varieties on south-facing terraced slopes, where each vine row embraces both sun 
@@ -43,7 +43,7 @@ export default function Hero() {
           </p>
         </div>
 
-        {/* Sezione “Visite solo su prenotazione” con satinatura più opaca */}
+        {/* Sezione “Visite solo su prenotazione” */}
         <div className="mt-6 bg-white bg-opacity-40 p-4 rounded-lg">
           <p className="text-lg font-semibold text-olive-900">
             SI ACCETTANO VISITE E SOLO SU PRENOTAZIONE
