@@ -18,11 +18,16 @@ export default function Hero() {
           Affacciata sul Lago di Como, Gigi e Cristina Winery è un esempio autentico di viticoltura eroica.
         </p>
 
-        {/* Rettangolo satinato */}
-        <div className="mt-6 inline-block bg-white bg-opacity-70 px-6 py-3 rounded-sm">
-          <span className="text-md md:text-lg font-medium text-gray-800">
-            SI ACCETTANO VISITE SOLO SU PRENOTAZIONE
-          </span>
+        {/* Rettangolo satinato con testo bilingue */}
+        <div className="mt-6 inline-block bg-white bg-opacity-70 px-6 py-4 rounded-sm">
+          {/* Testo inglese, più grande */}
+          <p className="text-2xl md:text-3xl font-bold text-gray-800">
+            Visits accepted by reservation only
+          </p>
+          {/* Testo italiano, più piccolo */}
+          <p className="mt-1 text-sm md:text-base text-gray-800">
+            si effettuano visite solo su prenotazione
+          </p>
         </div>
       </div>
     </section>
