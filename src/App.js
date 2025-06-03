@@ -11,9 +11,10 @@ function App() {
     <div className="flex flex-col min-h-screen">
       <Header />
       <Hero />
-      <Gallery />
+-     <Gallery />
       <Experiences />
       <Contact />
++     <Gallery />
       <Footer />
     </div>
   );
